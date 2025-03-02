@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">English For Beginners</string>
+    <string name="tts_error">Воспроизведение звука невозможно</string>
+    <string name="menu_title_listen">Озвучить</string>
+    <string name="menu_title_info">Теория</string>
+    <string name="button_grammar_tests">Грамматика</string>
+    <string name="button_word_tests">Слова</string>
+    <string name="button_game">Транскрипция</string>
+    <string name="button_exam">Экзамен</string>
+    <string name="button_clear">Очистить</string>
+    <string name="button_apply">Подтвердить</string>
+    <string name="button_start">Начать тест</string>
+    <string name="button_back">Вернуться в меню</string>
+    <string name="button_check">Проверить</string>
+    <string name="button_chat">Чат-бот</string>
+    <string name="button_stats">Статистика</string>
+    <string name="words_question">Пожалуйста, выберите верный перевод:</string>
+    <string name="main_image_description">Приложение для изучения английского языка на начальном уровне</string>
+    <string name="theory_image_description">Теория для теста</string>
+    <string name="edit_hint">Введите слово-попытку</string>
+    <string name="chat_hint">Напишите что-нибудь…</string>
+    <string name="chat_send_button_description">Отправить сообщение</string>
+    <string name="chat_icon_description">Сообщение</string>
+</resources>

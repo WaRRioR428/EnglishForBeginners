@@ -1,0 +1,1955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grammar>
+    <Test>
+        <id>1</id>
+        <theme>Present Simple</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>I love my family</sentence>
+            <translation>Я люблю свою семью.</translation>
+            <errorSentence>We loved his</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>you speak English</sentence>
+            <translation>Ты говоришь по-английски.</translation>
+            <errorSentence>they like Spanish</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>she goes to work every day</sentence>
+            <translation>Она ходит на работу каждый день.</translation>
+            <errorSentence>he go night</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>I don’t understand you</sentence>
+            <translation>Я не понимаю тебя.</translation>
+            <errorSentence>we doesn't remember</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>he doesn’t live in London</sentence>
+            <translation>Он не живёт в Лондоне.</translation>
+            <errorSentence>she don't to</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>birds don’t live in water</sentence>
+            <translation>Птицы не живут в воде.</translation>
+            <errorSentence>doesn't on</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>do you speak English</sentence>
+            <translation>Ты говоришь по-английски?</translation>
+            <errorSentence>does we speaks</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>does he play tennis</sentence>
+            <translation>Он играет в теннис?</translation>
+            <errorSentence>do she plays</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>where do you live</sentence>
+            <translation>Где ты живёшь?</translation>
+            <errorSentence>when does he</errorSentence>
+        </ConstructTask>
+        <MissingTask>
+            <id>1</id>
+            <sentence>Cats __ milk.</sentence>
+            <translation>Кошки любят молоко.</translation>
+            <answer>like</answer>
+            <wrongAnswers>
+                <answer>likes</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>I __ your help.</sentence>
+            <translation>Мне нужна твоя помощь.</translation>
+            <answer>need</answer>
+            <wrongAnswers>
+                <answer>needs</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>It __ very good.</sentence>
+            <translation>Это пахнет очень хорошо.</translation>
+            <answer>smells</answer>
+            <wrongAnswers>
+                <answer>smell</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>I __ like hot weather.</sentence>
+            <translation>Я не люблю жаркую погоду.</translation>
+            <answer>don't</answer>
+            <wrongAnswers>
+                <answer>doesn't</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>You __ know the answer.</sentence>
+            <translation>Ты не знаешь ответа.</translation>
+            <answer>don’t</answer>
+            <wrongAnswers>
+                <answer>doesn't</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>6</id>
+            <sentence>It __ snow in summer.</sentence>
+            <translation>Летом не идёт снег.</translation>
+            <answer>doesn't</answer>
+            <wrongAnswers>
+                <answer>don't</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>7</id>
+            <sentence>What __ you like?</sentence>
+            <translation>Что тебе нравится?</translation>
+            <answer>do</answer>
+            <wrongAnswers>
+                <answer>does</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>8</id>
+            <sentence>__ she speak English?</sentence>
+            <translation>Она говорит по-английски?</translation>
+            <answer>Does</answer>
+            <wrongAnswers>
+                <answer>Do</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>9</id>
+            <sentence>__ your father play the violin?</sentence>
+            <translation>Твой отец играет на скрипке?</translation>
+            <answer>Does</answer>
+            <wrongAnswers>
+                <answer>Do</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+
+    <Test>
+        <id>2</id>
+        <theme>Present Simple (2)</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>you are a doctor</sentence>
+            <translation>Ты доктор.</translation>
+            <errorSentence>he is</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>he is in the shop</sentence>
+            <translation>Он в магазине.</translation>
+            <errorSentence>she are a</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>I am from America</sentence>
+            <translation>Я из Америки.</translation>
+            <errorSentence>is the</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>it is cold outside</sentence>
+            <translation>Снаружи холодно.</translation>
+            <errorSentence>are does not</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>they aren't old</sentence>
+            <translation>Они не старые.</translation>
+            <errorSentence>we is don't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>it is a good car</sentence>
+            <translation>Это хорошая машина.</translation>
+            <errorSentence>are bad</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>what is that</sentence>
+            <translation>Что это?</translation>
+            <errorSentence>who are there</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>are you hungry</sentence>
+            <translation>Ты голоден?</translation>
+            <errorSentence>do is</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>is she tired</sentence>
+            <translation>Она уставшая?</translation>
+            <errorSentence>does we are</errorSentence>
+        </ConstructTask>
+        <MissingTask>
+            <id>1</id>
+            <sentence>I __ 20 years old.</sentence>
+            <translation>Мне 20 лет.</translation>
+            <answer>am</answer>
+            <wrongAnswers>
+                <answer>is</answer>
+                <answer>are</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>He __ a shop assistant.</sentence>
+            <translation>Он продавец.</translation>
+            <answer>is</answer>
+            <wrongAnswers>
+                <answer>am</answer>
+                <answer>are</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>They __ designers.</sentence>
+            <translation>Они дизайнеры.</translation>
+            <answer>are</answer>
+            <wrongAnswers>
+                <answer>am</answer>
+                <answer>is</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>We __ travelers.</sentence>
+            <translation>Мы не путешественники.</translation>
+            <answer>aren’t</answer>
+            <wrongAnswers>
+                <answer>isn’t</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>It __ difficult.</sentence>
+            <translation>Это не сложно.</translation>
+            <answer>isn’t</answer>
+            <wrongAnswers>
+                <answer>aren’t</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>6</id>
+            <sentence>They __ not my friends.</sentence>
+            <translation>Они не мои друзья.</translation>
+            <answer>are</answer>
+            <wrongAnswers>
+                <answer>is</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>7</id>
+            <sentence>__ this movie funny?</sentence>
+            <translation>Это кино смешное?</translation>
+            <answer>Is</answer>
+            <wrongAnswers>
+                <answer>Are</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>8</id>
+            <sentence>How old __ you?</sentence>
+            <translation>Сколько тебе лет?</translation>
+            <answer>are</answer>
+            <wrongAnswers>
+                <answer>is</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>9</id>
+            <sentence>__ your car new?</sentence>
+            <translation>Твоя машина новая?</translation>
+            <answer>Is</answer>
+            <wrongAnswers>
+                <answer>Are</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+
+    <Test>
+        <id>3</id>
+        <theme>Past Simple</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>he worked in a bank in 2010</sentence>
+            <translation>Он работал в банке в 2010.</translation>
+            <errorSentence>work at</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>we watched TV last night</sentence>
+            <translation>Мы смотрели телевизор прошлой ночью.</translation>
+            <errorSentence>they watch the</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>you didn't know the right answer</sentence>
+            <translation>Ты не знал правильного ответа.</translation>
+            <errorSentence>don't knew</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>where were you yesterday</sentence>
+            <translation>Где ты был вчера?</translation>
+            <errorSentence>was which</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>it wasn't cold yesterday</sentence>
+            <translation>Вчера не было холодно.</translation>
+            <errorSentence>didn't were</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>she was at the airport at 7</sentence>
+            <translation>Она была в аэропорту в 7.</translation>
+            <errorSentence>he were</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>Mark started work at 9 and finished at 6</sentence>
+            <translation>Марк начал работу в 9 и закончил в 6.</translation>
+            <errorSentence>start finish</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>they were not happy to see us</sentence>
+            <translation>Они не были рады нас видеть.</translation>
+            <errorSentence>was didn't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>who was this man</sentence>
+            <translation>Кто был этот мужчина?</translation>
+            <errorSentence>what were</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>did you like the show</sentence>
+            <translation>Тебе понравилось это шоу?</translation>
+            <errorSentence>were liked</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>4</id>
+        <theme>Future Simple</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>I will start jogging this year</sentence>
+            <translation>Я начну бегать в этом году.</translation>
+            <errorSentence>started be</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>Alex will have a birthday party on Saturday</sentence>
+            <translation>Алекс будет праздновать день рождения в субботу.</translation>
+            <errorSentence>having be</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>the hurricane will probably be here tonight</sentence>
+            <translation>Ураган, вероятно, будет здесь сегодня вечером.</translation>
+            <errorSentence>being was today</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>they will act at the theatre tomorrow</sentence>
+            <translation>Они будут выступать в театре завтра.</translation>
+            <errorSentence>acting yesterday</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>will you help me</sentence>
+            <translation>Поможешь мне?</translation>
+            <errorSentence>helped us</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>will you celebrate Christmas this year</sentence>
+            <translation>Вы будете праздновать Рождество в этом году?</translation>
+            <errorSentence>in that</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>will you study at the university</sentence>
+            <translation>Ты будешь учиться в университете?</translation>
+            <errorSentence>in to</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>I won't be at the party tomorrow</sentence>
+            <translation>Я не буду на вечеринке завтра.</translation>
+            <errorSentence>don't on in</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>I will go to London a few times next year</sentence>
+            <translation>Я посещу Лондон несколько раз в следующем году.</translation>
+            <errorSentence>in at on</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>he will spend his vacation in China</sentence>
+            <translation>Он проведет отпуск в Китае.</translation>
+            <errorSentence>her be</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>5</id>
+        <theme>Present Continuous</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>I am sitting</sentence>
+            <translation>Я сижу.</translation>
+            <errorSentence>sit is</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>your English is improving</sentence>
+            <translation>Твой английский улучшается.</translation>
+            <errorSentence>are improves</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>you aren't swimming now</sentence>
+            <translation>Ты не плаваешь сейчас.</translation>
+            <errorSentence>is not don't swim</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>he isn't listening to the radio right now</sentence>
+            <translation>Он не слушает радио прямо сейчас.</translation>
+            <errorSentence>don't listen him</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>they aren't watching TV</sentence>
+            <translation>Они не смотрят телевизор.</translation>
+            <errorSentence>you isn't don't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>is he sitting or standing</sentence>
+            <translation>Он сидит или стоит?</translation>
+            <errorSentence>does she</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>I am not taking a shower at the moment</sentence>
+            <translation>Я не принимаю душ в данный момент.</translation>
+            <errorSentence>take do</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>they are cooking breakfast</sentence>
+            <translation>Они готовят завтрак.</translation>
+            <errorSentence>we cooks</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>she is not playing tennis now</sentence>
+            <translation>Она не играет в теннис теперь.</translation>
+            <errorSentence>don't plays</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>are you watching a movie or a cartoon</sentence>
+            <translation>Ты смотришь кино или мультфильм?</translation>
+            <errorSentence>is watch the the</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>6</id>
+        <theme>Present Continuous (2)</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>I am meeting some friends after work</sentence>
+            <translation>Я встречаюсь с друзьями после работы.</translation>
+            <errorSentence>will be the</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>Mary is going to a new school next year</sentence>
+            <translation>Мэри пойдёт в новую школу в следующем году.</translation>
+            <errorSentence>are in will be</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>our grandmother is visiting us at Christmas</sentence>
+            <translation>Наша бабушка навещает нас на Рождество.</translation>
+            <errorSentence>will them</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>my mother is not seeing the dentist tomorrow</sentence>
+            <translation>Моя мама не идёт к стоматологу завтра.</translation>
+            <errorSentence>will don't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>I am not going to the party tonight</sentence>
+            <translation>Я не иду на вечеринку сегодня вечером.</translation>
+            <errorSentence>will go</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>is he visiting his parents next weekend</sentence>
+            <translation>Он навестит своих родителей на следующей неделе?</translation>
+            <errorSentence>does visit will</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>what are you doing next week</sentence>
+            <translation>Что ты делаешь на следующей неделе?</translation>
+            <errorSentence>will is</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>are you going out tonight</sentence>
+            <translation>Ты пойдёшь куда-то сегодня вечером?</translation>
+            <errorSentence>will is</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>we are buying a new car next week</sentence>
+            <translation>Мы покупаем новую машину на следующей неделе.</translation>
+            <errorSentence>will the on</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>I am having a business meeting tomorrow</sentence>
+            <translation>У меня деловая встреча завтра.</translation>
+            <errorSentence>will be have</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>7</id>
+        <theme>Past Continuous</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>at 7.00 this morning I was reading the news</sentence>
+            <translation>В 7.00 этим утром я читал новости.</translation>
+            <errorSentence>read am</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>he was watching the movie from 6 till 8</sentence>
+            <translation>Он смотрел фильм с 6 до 8.</translation>
+            <errorSentence>watched were</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>they were not watching TV when I came</sentence>
+            <translation>Они не смотрели телевизор, когда я пришёл.</translation>
+            <errorSentence>watched was come</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>were you discussing the new project</sentence>
+            <translation>Вы обсуждали новый проект?</translation>
+            <errorSentence>did discussed discuss was</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>Ben wasn't sleeping when she called</sentence>
+            <translation>Бен не спал, когда она позвонила.</translation>
+            <errorSentence>didn't slept</errorSentence>
+        </ConstructTask>
+        <MissingTask>
+            <id>1</id>
+            <sentence>At 14.00 on Sunday I __ at home.</sentence>
+            <translation>В 14.00 в воскресенье я сидел дома.</translation>
+            <answer>was sitting</answer>
+            <wrongAnswers>
+                <answer>were sitting</answer>
+                <answer>sat</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>At 21.00 I __ video games with my friend.</sentence>
+            <translation>В 21.00 я играл в видеоигры со своим другом.</translation>
+            <answer>was playing</answer>
+            <wrongAnswers>
+                <answer>were playing</answer>
+                <answer>played</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>What __ you doing 10 minutes ago?</sentence>
+            <translation>Что ты делал 10 минут назад?</translation>
+            <answer>were</answer>
+            <wrongAnswers>
+                <answer>was</answer>
+                <answer>are</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>__ it raining 2 hours ago?</sentence>
+            <translation>2 часа назад шёл дождь?</translation>
+            <answer>Was</answer>
+            <wrongAnswers>
+                <answer>Were</answer>
+                <answer>Is</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>What were you __ at?</sentence>
+            <translation>Над чем ты смеялся?</translation>
+            <answer>laughing</answer>
+            <wrongAnswers>
+                <answer>laugh</answer>
+                <answer>laughed</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+
+    <Test>
+        <id>8</id>
+        <theme>Present Perfect</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>I have bought a new car</sentence>
+            <translation>Я купил новую машину.</translation>
+            <errorSentence>has buy</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>I have just eaten</sentence>
+            <translation>Я только что поел.</translation>
+            <errorSentence>has eat</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>our journey has just begun</sentence>
+            <translation>Наше путешествие только что началось.</translation>
+            <errorSentence>have begin</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>have you found a new job</sentence>
+            <translation>Ты нашёл новую работу?</translation>
+            <errorSentence>has do</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>have they got married</sentence>
+            <translation>Они поженились?</translation>
+            <errorSentence>has do</errorSentence>
+        </ConstructTask>
+        <MissingTask>
+            <id>1</id>
+            <sentence>The film __ already started.</sentence>
+            <translation>Фильм уже начался.</translation>
+            <answer>has</answer>
+            <wrongAnswers>
+                <answer>have</answer>
+                <answer>-</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>__ the guests already arrived?</sentence>
+            <translation>Гости уже прибыли?</translation>
+            <answer>Have</answer>
+            <wrongAnswers>
+                <answer>Has</answer>
+                <answer>Did</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>James __ his homework yet.</sentence>
+            <translation>Джеймс ещё не закончил свою домашнюю работу.</translation>
+            <answer>hasn’t finished</answer>
+            <wrongAnswers>
+                <answer>haven’t finished</answer>
+                <answer>didn’t finish</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>The rain __ yet.</sentence>
+            <translation>Дождь ещё не закончился.</translation>
+            <answer>hasn’t stopped</answer>
+            <wrongAnswers>
+                <answer>haven’t stopped</answer>
+                <answer>didn’t stop</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>I __ never been to Italy.</sentence>
+            <translation>Я никогда не был в Италии</translation>
+            <answer>have</answer>
+            <wrongAnswers>
+                <answer>has</answer>
+                <answer>-</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+
+    <Test>
+        <id>9</id>
+        <theme>Present Perfect Continuous</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>they have been talking for the last hour</sentence>
+            <translation>Они разговаривают весь последний час.</translation>
+            <errorSentence>talk has</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>she has been working at that company for three years</sentence>
+            <translation>Она работает в той компании на протяжении трёх лет.</translation>
+            <errorSentence>have work worked</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>what have you been doing for the last 30 minutes</sentence>
+            <translation>Что ты делаешь в течение последних 30 минут?</translation>
+            <errorSentence>has done</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>we have been waiting here for over two hours</sentence>
+            <translation>Мы ждём здесь больше двух часов!</translation>
+            <errorSentence>has wait waited</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>James has been teaching at the university since June</sentence>
+            <translation>Джеймс преподаёт в университете с июня.</translation>
+            <errorSentence>have teached in</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>we have been planning this vacation since last month</sentence>
+            <translation>Мы планировали этот отпуск с прошлого месяца.</translation>
+            <errorSentence>has have plan a</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>Tom has been watching TV all day</sentence>
+            <translation>Том смотрит телевизор весь день.</translation>
+            <errorSentence>have watch</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>it has been raining for 3 hours</sentence>
+            <translation>Дождь идет уже три часа.</translation>
+            <errorSentence>have rain rained</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>how long have we been sitting here</sentence>
+            <translation>Как долго мы сидим здесь?</translation>
+            <errorSentence>has sit</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>how long have you been renting your apartment</sentence>
+            <translation>Как долго ты арендуешь свою квартиру?</translation>
+            <errorSentence>has rent</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>10</id>
+        <theme>Articles</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>the Earth moves around the Sun</sentence>
+            <translation>Земля движется вокруг солнца.</translation>
+            <errorSentence>a a</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>the president visited the veterans</sentence>
+            <translation>Президент навестил ветеранов.</translation>
+            <errorSentence>a a</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>he earns $3000 a month</sentence>
+            <translation>Он зарабатывает 3000$ в месяц.</translation>
+            <errorSentence>in the</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>the computer has changed the world</sentence>
+            <translation>Компьютер изменил мир.</translation>
+            <errorSentence>a a</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>I go to the cinema and the theatre</sentence>
+            <translation>Я хожу в кино и театр.</translation>
+            <errorSentence>a a</errorSentence>
+        </ConstructTask>
+        <MissingTask>
+            <id>1</id>
+            <sentence>I need __ apple.</sentence>
+            <translation>Мне нужно яблоко.</translation>
+            <answer>an</answer>
+            <wrongAnswers>
+                <answer>a</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>This is __ university.</sentence>
+            <translation>Это университет.</translation>
+            <answer>a</answer>
+            <wrongAnswers>
+                <answer>an</answer>
+                <answer>the</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>I see __ cat. __ cat is hungry.</sentence>
+            <translation>Я вижу кота. Кот голоден.</translation>
+            <answer>a, The</answer>
+            <wrongAnswers>
+                <answer>a, A</answer>
+                <answer>the, A</answer>
+                <answer>the, The</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>They are __ doctors.</sentence>
+            <translation>Они врачи.</translation>
+            <answer>-</answer>
+            <wrongAnswers>
+                <answer>a</answer>
+                <answer>the</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>Where is __ longest river in the world?</sentence>
+            <translation>Где находится самая длинная река в мире?</translation>
+            <answer>the</answer>
+            <wrongAnswers>
+                <answer>a</answer>
+                <answer>-</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+
+    <Test>
+        <id>11</id>
+        <theme>There + be</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>there was a problem with my computer</sentence>
+            <translation>С моим компьютером была проблема.</translation>
+            <errorSentence>were is</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>there was no reason to wait for him</sentence>
+            <translation>Не было причины ждать его.</translation>
+            <errorSentence>were is</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>there were hamsters in that cage</sentence>
+            <translation>В той клетке были хомяки.</translation>
+            <errorSentence>was are</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>there will be a work meeting at 5</sentence>
+            <translation>В 5 будет рабочее совещание.</translation>
+            <errorSentence>is was</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>there will be an increase of prices of fuel</sentence>
+            <translation>Будет повышение цен на топливо.</translation>
+            <errorSentence>are was is</errorSentence>
+        </ConstructTask>
+        <MissingTask>
+            <id>1</id>
+            <sentence>__ a key in your door.</sentence>
+            <translation>В твоей двери ключ.</translation>
+            <answer>There is</answer>
+            <wrongAnswers>
+                <answer>There are</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>__ a bottle of milk in the fridge.</sentence>
+            <translation>В холодильнике бутылка молока.</translation>
+            <answer>There is</answer>
+            <wrongAnswers>
+                <answer>There are</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>__ something in her hand.</sentence>
+            <translation>В её руке что-то есть.</translation>
+            <answer>There is</answer>
+            <wrongAnswers>
+                <answer>There are</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>__ some problems with my car.</sentence>
+            <translation>С моей машиной какие-то проблемы.</translation>
+            <answer>There are</answer>
+            <wrongAnswers>
+                <answer>There is</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>__ many liars among politicians.</sentence>
+            <translation>Среди политиков много лгунов.</translation>
+            <answer>There are</answer>
+            <wrongAnswers>
+                <answer>There is</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+
+    <Test>
+        <id>12</id>
+        <theme>Be going to</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>tonight I am going to read a book</sentence>
+            <translation>Сегодня ночью я собираюсь прочитать книгу.</translation>
+            <errorSentence>will go</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>he is going to visit Paris next week</sentence>
+            <translation>Он собирается посетить Париж на следующей неделе.</translation>
+            <errorSentence>will on</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>they are going to school tomorrow morning</sentence>
+            <translation>Они собираются в школу завтра утром.</translation>
+            <errorSentence>will be</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>are you going to work at the weekend</sentence>
+            <translation>Ты собираешься работать на выходных?</translation>
+            <errorSentence>will on</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>is he going to tell me the truth or not</sentence>
+            <translation>Он собирается сказать мне правду или нет?</translation>
+            <errorSentence>will</errorSentence>
+        </ConstructTask>
+        <MissingTask>
+            <id>1</id>
+            <sentence>Sarah __ going to cook tonight.</sentence>
+            <translation>Сара не собирается готовить сегодня ночью.</translation>
+            <answer>isn’t</answer>
+            <wrongAnswers>
+                <answer>aren’t</answer>
+                <answer>won't</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>My parents __ going to sell their house</sentence>
+            <translation>Мои родители не собираются продавать свой дом.</translation>
+            <answer>aren’t</answer>
+            <wrongAnswers>
+                <answer>isn't</answer>
+                <answer>won't</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>We __ going to visit our friends tonight.</sentence>
+            <translation>Мы не собираемся посещать наших друзей сегодня вечером.</translation>
+            <answer>aren’t</answer>
+            <wrongAnswers>
+                <answer>isn't</answer>
+                <answer>won't</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>__ going to sing at the concert tonight?</sentence>
+            <translation>Она собирается петь на концерте сегодня вечером?</translation>
+            <answer>Is she</answer>
+            <wrongAnswers>
+                <answer>Are he</answer>
+                <answer>Is they</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>__ going to have a holiday next month?</sentence>
+            <translation>Они собираются в отпуск в следующем месяце?</translation>
+            <answer>Are they</answer>
+            <wrongAnswers>
+                <answer>Are she</answer>
+                <answer>Is they</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+
+    <Test>
+        <id>13</id>
+        <theme>Pretext question</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>what team do you play for</sentence>
+            <translation>За какую команду ты играешь?</translation>
+            <errorSentence>with</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>what are you looking at</sentence>
+            <translation>На что ты смотришь?</translation>
+            <errorSentence>on were</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>what hotel did you stay at</sentence>
+            <translation>В каком отеле ты остановился?</translation>
+            <errorSentence>in is</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>what are you thinking about</sentence>
+            <translation>О чём ты думаешь?</translation>
+            <errorSentence>of who</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>who are you going with</sentence>
+            <translation>С кем ты идёшь?</translation>
+            <errorSentence>in on</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>what were you talking about</sentence>
+            <translation>О чём вы говорили?</translation>
+            <errorSentence>of are</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>what are we all waiting for</sentence>
+            <translation>Чего мы все ждём?</translation>
+            <errorSentence>with</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>what does he look like</sentence>
+            <translation>Как он выглядит?</translation>
+            <errorSentence>at</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>what does it feel like</sentence>
+            <translation>На что это похоже?</translation>
+            <errorSentence>on feeling</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>what is it all about</sentence>
+            <translation>Из-за чего это всё?</translation>
+            <errorSentence>from</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>14</id>
+        <theme>May/might</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>you might have a problem with your boss</sentence>
+            <translation>У тебя, возможно, будут проблемы с твоим начальником.</translation>
+            <errorSentence>can must</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>it might already be too late to call him</sentence>
+            <translation>Возможно, уже поздно звонить ему.</translation>
+            <errorSentence>can</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>it might be very difficult to become a firefighter</sentence>
+            <translation>Возможно, очень сложно стать пожарным.</translation>
+            <errorSentence>would</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>it might not be a lie</sentence>
+            <translation>Возможно, это не ложь.</translation>
+            <errorSentence>must</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>may I borrow your pen</sentence>
+            <translation>Я могу одолжить вашу ручку?</translation>
+            <errorSentence>should</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>may I use your computer</sentence>
+            <translation>Я могу воспользоваться вашим компьютером?</translation>
+            <errorSentence>must might</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>15</id>
+        <theme>Can/could</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>I can swim</sentence>
+            <translation>Я умею плавать.</translation>
+            <errorSentence>could may</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>you can use my pen</sentence>
+            <translation>Ты можешь воспользоваться моей ручкой.</translation>
+            <errorSentence>could</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>we could run fast when we were young</sentence>
+            <translation>Мы могли бегать быстро, когда были молодыми.</translation>
+            <errorSentence>can must</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>can I look at this document</sentence>
+            <translation>Могу я взглянуть на этот документ?</translation>
+            <errorSentence>might on</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>can she bring me coffee</sentence>
+            <translation>Она может принести мне кофе?</translation>
+            <errorSentence>could</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>he could speak French</sentence>
+            <translation>Он мог говорить по-французски.</translation>
+            <errorSentence>can the</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>could you call Tom</sentence>
+            <translation>Могли бы вы позвонить Тому?</translation>
+            <errorSentence>Can</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>she cannot stop crying</sentence>
+            <translation>Она не может перестать плакать.</translation>
+            <errorSentence>mustn't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>she couldn't leave the lesson</sentence>
+            <translation>Она не могла уйти с урока.</translation>
+            <errorSentence>can’t a</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>I can’t answer your question</sentence>
+            <translation>Я не могу ответить на твой вопрос.</translation>
+            <errorSentence>mustn't won't</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>16</id>
+        <theme>Must</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>he must work hard day after day</sentence>
+            <translation>Он должен работать усердно день за днём.</translation>
+            <errorSentence>could can might</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>relatives must support each other</sentence>
+            <translation>Родственники должны поддерживать друг друга.</translation>
+            <errorSentence>can do</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>it must not be mentioned</sentence>
+            <translation>Это не должно упоминаться!</translation>
+            <errorSentence>can</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>I must be at the train station at 5</sentence>
+            <translation>Я должен быть на вокзале в 5.</translation>
+            <errorSentence>should on in</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>you must stay here</sentence>
+            <translation>Ты должен остаться здесь.</translation>
+            <errorSentence>should can</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>children must clean their room</sentence>
+            <translation>Дети должны убираться в своей комнате.</translation>
+            <errorSentence>should may</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>you mustn't walk on the grass</sentence>
+            <translation>Вы не должны ходить по траве.</translation>
+            <errorSentence>shouldn't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>must I do my homework</sentence>
+            <translation>Я должен делать домашнее задание?</translation>
+            <errorSentence>can may</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>when must we come back</sentence>
+            <translation>Когда нам нужно возвращаться?</translation>
+            <errorSentence>could can</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>17</id>
+        <theme>Should</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>I should go on a diet</sentence>
+            <translation>Мне следует сесть на диету.</translation>
+            <errorSentence>can will might may</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>we should take our dog for a walk</sentence>
+            <translation>Нам следует вывести нашу собаку на прогулку.</translation>
+            <errorSentence>could must</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>we should make a decision</sentence>
+            <translation>Нам следует принять решение.</translation>
+            <errorSentence>must</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>you shouldn’t be so rude to other people</sentence>
+            <translation>Тебе не следует быть таким грубым с другими людьми.</translation>
+            <errorSentence>mustn't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>you shouldn’t lie to me</sentence>
+            <translation>Тебе не стоит мне врать.</translation>
+            <errorSentence>can't don't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>you shouldn’t buy the house now</sentence>
+            <translation>Тебе не стоит покупать дом сейчас.</translation>
+            <errorSentence>mustn't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>do you think I should change my job</sentence>
+            <translation>Думаешь, мне стоит сменить работу?</translation>
+            <errorSentence>could will</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>should she call him first</sentence>
+            <translation>Ей стоит позвонить ему первой?</translation>
+            <errorSentence>Could</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>he should have told her the truth</sentence>
+            <translation>Ему следовало рассказать ей правду.</translation>
+            <errorSentence>can tell</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>they shouldn’t have left so early</sentence>
+            <translation>Им не следовало уходить так рано.</translation>
+            <errorSentence>mustn't leave</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>18</id>
+        <theme>Have to</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>I had to hire a babysitter last year</sentence>
+            <translation>Мне пришлось нанять няню в прошлом году.</translation>
+            <errorSentence>could must</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>they had to overpay 25$</sentence>
+            <translation>Им пришлось переплатить 25$.</translation>
+            <errorSentence>should</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>we will have to leave tomorrow morning</sentence>
+            <translation>Нам нужно будет уйти завтра утром.</translation>
+            <errorSentence>must</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>I have to listen to his complaints</sentence>
+            <translation>Я вынужден слушать его жалобы.</translation>
+            <errorSentence>must can</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>I didn’t have to be a soldier</sentence>
+            <translation>Мне не обязательно было быть солдатом.</translation>
+            <errorSentence>should't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>we don’t have to visit our doctor every day</sentence>
+            <translation>Нам не нужно посещать доктора каждый день.</translation>
+            <errorSentence>mustn't can't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>I didn’t have to pay for my studies</sentence>
+            <translation>Мне не пришлось платить за мою учёбу.</translation>
+            <errorSentence>can't mustn't</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>are you sure we have to go to their place</sentence>
+            <translation>Ты уверен, что нам нужно ехать к ним?</translation>
+            <errorSentence>can will</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>do I have to answer in English</sentence>
+            <translation>Мне нужно отвечать на английском?</translation>
+            <errorSentence>should on must</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>why does she have to support you</sentence>
+            <translation>Почему она должна поддерживать вас?</translation>
+            <errorSentence>could</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>19</id>
+        <theme>Used to</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>I used to be a nurse but now I am a doctor</sentence>
+            <translation>Раньше я была медсестрой, но теперь я доктор.</translation>
+            <errorSentence>been the an</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>he used to live alone</sentence>
+            <translation>Раньше он жил один.</translation>
+            <errorSentence>use</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>I used to get up at 6 a.m.</sentence>
+            <translation>Раньше я вставал в 6 утра.</translation>
+            <errorSentence>got in</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>you used to live in London</sentence>
+            <translation>Ты раньше жил в Лондоне?</translation>
+            <errorSentence>do use</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>I used to live near Hyde Park</sentence>
+            <translation>Я раньше жил возле Гайд-парка.</translation>
+            <errorSentence>use lived</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>he is used to staying away from home</sentence>
+            <translation>Он привык находиться вдали от дома.</translation>
+            <errorSentence>use the stay</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>are they used to the cold weather</sentence>
+            <translation>Они привыкли к холодной погоде?</translation>
+            <errorSentence>do is use</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>I am not used to him and his behavior</sentence>
+            <translation>Я не привык к нему и его поведению.</translation>
+            <errorSentence>do use</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>I will never get used to living in this city</sentence>
+            <translation>Я никогда не привыкну к жизни в этом городе.</translation>
+            <errorSentence>am live</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>20</id>
+        <theme>Do and make</theme>
+        <MissingTask>
+            <id>1</id>
+            <sentence>What can I __ for you?</sentence>
+            <translation>Что я могу сделать для вас?</translation>
+            <answer>do</answer>
+            <wrongAnswers>
+                <answer>make</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>I’ve finally __ the dishes.</sentence>
+            <translation>Я наконец-то помыл посуду.</translation>
+            <answer>done</answer>
+            <wrongAnswers>
+                <answer>made</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>We are __ business together.</sentence>
+            <translation>Мы занимаешься бизнесом вместе.</translation>
+            <answer>doing</answer>
+            <wrongAnswers>
+                <answer>making</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>She’s __ nothing.</sentence>
+            <translation>Она ничего не делает.</translation>
+            <answer>doing</answer>
+            <wrongAnswers>
+                <answer>making</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>I’ve just __ an appointment with my lawyer.</sentence>
+            <translation>Я только что записался на приём к моему адвокату.</translation>
+            <answer>made</answer>
+            <wrongAnswers>
+                <answer>done</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>6</id>
+            <sentence>I've __ a date with her.</sentence>
+            <translation>Я назначил ей свидание.</translation>
+            <answer>made</answer>
+            <wrongAnswers>
+                <answer>done</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>7</id>
+            <sentence>I __ a cup of tea for breakfast.</sentence>
+            <translation>Я сделал чашку чая на завтрак.</translation>
+            <answer>made</answer>
+            <wrongAnswers>
+                <answer>did</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>8</id>
+            <sentence>His wedding ring is __ of gold.</sentence>
+            <translation>Его обручальное кольцо сделано из золота.</translation>
+            <answer>made</answer>
+            <wrongAnswers>
+                <answer>make</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>9</id>
+            <sentence>You __ me happy.</sentence>
+            <translation>Ты делаешь меня счастливым.</translation>
+            <answer>make</answer>
+            <wrongAnswers>
+                <answer>do</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+
+    <Test>
+        <id>21</id>
+        <theme>Imperative mood</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>do the dishes</sentence>
+            <translation>Помой посуду.</translation>
+            <errorSentence>Does</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>lay the table</sentence>
+            <translation>Накрой на стол.</translation>
+            <errorSentence>on</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>watch out</sentence>
+            <translation>Берегись!</translation>
+            <errorSentence>off that</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>please be quiet</sentence>
+            <translation>Пожалуйста, потише.</translation>
+            <errorSentence>been silent</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>stop talking please</sentence>
+            <translation>Перестаньте говорить, пожалуйста.</translation>
+            <errorSentence>talk</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>let’s have fun</sentence>
+            <translation>Давай повеселимся!</translation>
+            <errorSentence>be the</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>take your time</sentence>
+            <translation>Не торопись.</translation>
+            <errorSentence>give</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>don’t make a mess</sentence>
+            <translation>Не устаивай беспорядок.</translation>
+            <errorSentence>Do the</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>don’t be silly</sentence>
+            <translation>Не глупи!</translation>
+            <errorSentence>Do</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>let’s not talk about that</sentence>
+            <translation>Давай не будем говорить об этом.</translation>
+            <errorSentence>don't</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>22</id>
+        <theme>Passive Voice</theme>
+        <ConstructTask>
+            <id>1</id>
+            <sentence>it was made in Germany</sentence>
+            <translation>Это было сделано в Германии.</translation>
+            <errorSentence>were make at</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>2</id>
+            <sentence>the emails will be sent tomorrow morning</sentence>
+            <translation>Письма будут отправлены завтра утром.</translation>
+            <errorSentence>send are</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>3</id>
+            <sentence>snacks will be served during the flight</sentence>
+            <translation>Закуски будут подаваться во время полёта.</translation>
+            <errorSentence>serve are is</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>4</id>
+            <sentence>cheese is made from milk</sentence>
+            <translation>Сыр делают из молока.</translation>
+            <errorSentence>are make do</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>5</id>
+            <sentence>the temple was found in 1813</sentence>
+            <translation>Храм был основан в 1813.</translation>
+            <errorSentence>is find</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>6</id>
+            <sentence>crops are grown by a farmer</sentence>
+            <translation>Урожай выращивается фермером.</translation>
+            <errorSentence>is grow</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>7</id>
+            <sentence>the museum was not opened until 1992.</sentence>
+            <translation>Музей не был открыт до 1992</translation>
+            <errorSentence>is open</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>8</id>
+            <sentence>the decision has already been made</sentence>
+            <translation>Решение уже было принято.</translation>
+            <errorSentence>was be</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>9</id>
+            <sentence>criminals must be sent to prison</sentence>
+            <translation>Преступники должны быть отправлены в тюрьму.</translation>
+            <errorSentence>send in at</errorSentence>
+        </ConstructTask>
+        <ConstructTask>
+            <id>10</id>
+            <sentence>this line must not be crossed</sentence>
+            <translation>Эту линию нельзя пересекать.</translation>
+            <errorSentence>don't cross</errorSentence>
+        </ConstructTask>
+    </Test>
+
+    <Test>
+        <id>23</id>
+        <theme>Much, many, a lot of</theme>
+        <MissingTask>
+            <id>1</id>
+            <sentence>I have __ friends.</sentence>
+            <translation>У меня много друзей.</translation>
+            <answer>many</answer>
+            <wrongAnswers>
+                <answer>much</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>There are __ children in the park.</sentence>
+            <translation>В парке много детей.</translation>
+            <answer>many</answer>
+            <wrongAnswers>
+                <answer>much</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>I drank too __ water.</sentence>
+            <translation>Я выпил слишком много воды.</translation>
+            <answer>much</answer>
+            <wrongAnswers>
+                <answer>many</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>I ate __ apples.</sentence>
+            <translation>Я съел много яблок.</translation>
+            <answer>a lot of</answer>
+            <wrongAnswers>
+                <answer>much</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>How __ apples did you have?</sentence>
+            <translation>Сколько яблок у тебя было?</translation>
+            <answer>many</answer>
+            <wrongAnswers>
+                <answer>much</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>6</id>
+            <sentence>How __ coffee do you drink a day?</sentence>
+            <translation>Сколько кофе ты выпиваешь в день?</translation>
+            <answer>much</answer>
+            <wrongAnswers>
+                <answer>many</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>7</id>
+            <sentence>How __ money do you have?</sentence>
+            <translation>Сколько у тебя денег?</translation>
+            <answer>much</answer>
+            <wrongAnswers>
+                <answer>many</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>8</id>
+            <sentence>There are __ trees.</sentence>
+            <translation>Здесь много деревьев.</translation>
+            <answer>a lot of</answer>
+            <wrongAnswers>
+                <answer>much</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>9</id>
+            <sentence>There are __ shops in this street.</sentence>
+            <translation>На этой улице много магазинов.</translation>
+            <answer>a lot of</answer>
+            <wrongAnswers>
+                <answer>much</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>10</id>
+            <sentence>He drank __ of beer last night.</sentence>
+            <translation>Он выпил много пива прошлой ночью.</translation>
+            <answer>a lot</answer>
+            <wrongAnswers>
+                <answer>much</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+
+    <Test>
+        <id>24</id>
+        <theme>Few, little</theme>
+        <MissingTask>
+            <id>1</id>
+            <sentence>I have __ juice in my glass.</sentence>
+            <translation>В моём стакане мало сока.</translation>
+            <answer>little</answer>
+            <wrongAnswers>
+                <answer>few</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>I still feel __ weak.</sentence>
+            <translation>Я всё ещё чувствую себя немного слабым.</translation>
+            <answer>a little</answer>
+            <wrongAnswers>
+                <answer>a few</answer>
+                <answer>few</answer>
+                <answer>little</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>She didn’t eat anything but she drank __ water.</sentence>
+            <translation>Она ничего не ела, но выпила немного воды.</translation>
+            <answer>a little</answer>
+            <wrongAnswers>
+                <answer>little</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>I speak __ Spanish.</sentence>
+            <translation>Я говорю немного по-испански.</translation>
+            <answer>a little</answer>
+            <wrongAnswers>
+                <answer>little</answer>
+                <answer>a few</answer>
+                <answer>few</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>She’s very thin because she eats very __.</sentence>
+            <translation>Она очень худая, потому что ест очень мало.</translation>
+            <answer>little</answer>
+            <wrongAnswers>
+                <answer>a little</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>6</id>
+            <sentence>She makes very __ mistakes.</sentence>
+            <translation>Она делает очень мало ошибок.</translation>
+            <answer>few</answer>
+            <wrongAnswers>
+                <answer>little</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>7</id>
+            <sentence>We have very __ time.</sentence>
+            <translation>У нас очень мало времени.</translation>
+            <answer>little</answer>
+            <wrongAnswers>
+                <answer>few</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>8</id>
+            <sentence>I wrote __ letters to my family and friends.</sentence>
+            <translation>Я написал несколько писем моей семье и друзьям.</translation>
+            <answer>a few</answer>
+            <wrongAnswers>
+                <answer>a little</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>9</id>
+            <sentence>Can I have __ milk in my coffee?</sentence>
+            <translation>Можно мне немного молока в моё кофе?</translation>
+            <answer>a little</answer>
+            <wrongAnswers>
+                <answer>-</answer>
+                <answer>a few</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>10</id>
+            <sentence>This country has __ natural resources.</sentence>
+            <translation>Эта страна имеет мало природных ресурсов.</translation>
+            <answer>few</answer>
+            <wrongAnswers>
+                <answer>little</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+
+    <Test>
+        <id>25</id>
+        <theme>Infinitive and gerrundy</theme>
+        <MissingTask>
+            <id>1</id>
+            <sentence>He wants __ with us.</sentence>
+            <translation>Он хочет остаться с нами.</translation>
+            <answer>to stay</answer>
+            <wrongAnswers>
+                <answer>staying</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>2</id>
+            <sentence>She decided __ kind to them.</sentence>
+            <translation>Она решила быть добра к ним.</translation>
+            <answer>to be</answer>
+            <wrongAnswers>
+                <answer>being</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>3</id>
+            <sentence>I would like __ to you.</sentence>
+            <translation>Я хотел бы поговорить с тобой.</translation>
+            <answer>to talk</answer>
+            <wrongAnswers>
+                <answer>talking</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>4</id>
+            <sentence>Please, stop __ your life.</sentence>
+            <translation>Пожалуйста, прекрати тратить впустую свою жизнь.</translation>
+            <answer>wasting</answer>
+            <wrongAnswers>
+                <answer>to waste</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>5</id>
+            <sentence>They finished __ TV and went for a walk.</sentence>
+            <translation>Они закончили смотреть телевизор и пошли на прогулку.</translation>
+            <answer>watching</answer>
+            <wrongAnswers>
+                <answer>to watch</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>6</id>
+            <sentence>Do you mind __ this rule to me?</sentence>
+            <translation>Ты не против объяснить мне это правило?</translation>
+            <answer>explaining</answer>
+            <wrongAnswers>
+                <answer>to explain</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>7</id>
+            <sentence>I enjoy __ very much.</sentence>
+            <translation>Я очень люблю готовить.</translation>
+            <answer>cooking</answer>
+            <wrongAnswers>
+                <answer>to cook</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>8</id>
+            <sentence>Tom suggested __ to a café.</sentence>
+            <translation>Том предложил пойти в кафе.</translation>
+            <answer>going</answer>
+            <wrongAnswers>
+                <answer>to go</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>9</id>
+            <sentence>She agreed __ later.</sentence>
+            <translation>Она согласилась вернуться позже.</translation>
+            <answer>to come back</answer>
+            <wrongAnswers>
+                <answer>coming back</answer>
+            </wrongAnswers>
+        </MissingTask>
+        <MissingTask>
+            <id>10</id>
+            <sentence>He asked __ the ticket.</sentence>
+            <translation>Он попросил поменять билет.</translation>
+            <answer>to change</answer>
+            <wrongAnswers>
+                <answer>changing</answer>
+            </wrongAnswers>
+        </MissingTask>
+    </Test>
+</Grammar>
