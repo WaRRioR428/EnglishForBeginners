@@ -24,6 +24,7 @@ import com.example.englishforbeginners.database.DatabaseAccess;
 import com.example.englishforbeginners.entity.Stats;
 
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.logging.Level;
@@ -32,11 +33,12 @@ import java.util.logging.Logger;
 public class ChatActivity extends AppCompatActivity {
 
     private EditText userMsgEdt;
-    private final String BOT_KEY = "bot";
 
     private ArrayList<MessageModel> messageModelArrayList;
     private MessageRVAdapter messageRVAdapter;
+    private RecyclerView chatsRV;
 
+    private String conversation;
     private int messagesSent;
     private ChatActivity context;
 
@@ -52,7 +54,7 @@ public class ChatActivity extends AppCompatActivity {
         messageModelArrayList = new ArrayList<>();
         messageRVAdapter = new MessageRVAdapter(messageModelArrayList);
 
-        RecyclerView chatsRV = findViewById(R.id.idRVChats);
+        chatsRV = findViewById(R.id.idRVChats);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(ChatActivity.this, RecyclerView.VERTICAL, false);
         chatsRV.setLayoutManager(linearLayoutManager);
         chatsRV.setAdapter(messageRVAdapter);
@@ -60,8 +62,8 @@ public class ChatActivity extends AppCompatActivity {
         ImageButton sendMsgIB = findViewById(R.id.idIBSend);
         sendMsgIB.setOnClickListener(v -> {
             String message = userMsgEdt.getText().toString();
-            if (message.isEmpty()) {
-                Toast.makeText(ChatActivity.this, "Please enter your message..", Toast.LENGTH_SHORT).show();
+            if (message.trim().isEmpty()) {
+                Toast.makeText(ChatActivity.this, "Введите ваше сообщение...", Toast.LENGTH_SHORT).show();
                 return;
             }
             sendMessage(message);
@@ -88,6 +90,8 @@ public class ChatActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        sendMessage("");
     }
 
     @Override
@@ -98,28 +102,49 @@ public class ChatActivity extends AppCompatActivity {
 
     @SuppressLint("NotifyDataSetChanged")
     private void sendMessage(String userMsg) {
-        String url = "http://api.brainshop.ai/get?bid=183519&key=6d3Tf3219fyPLUHd&uid=uid&msg=" + userMsg;
+        String url = "https://www.botlibre.com/rest/json/chat";
         messagesSent++;
 
-        messageModelArrayList.add(new MessageModel(userMsg, "user"));
-        messageRVAdapter.notifyDataSetChanged();
+        if (!userMsg.isEmpty()) {
+            displayMessage(userMsg, "user");
+        }
+
+        JSONObject postData = new JSONObject();
+        try {
+            postData.put("application", "4232796170982947466");
+            postData.put("instance", "56537269");
+            postData.put("message", userMsg);
+            if (!(conversation == null)) {
+                postData.put("conversation", conversation);
+            }
+
+        } catch (JSONException ex) {
+            Logger.getLogger(ChatActivity.class.getName()).log(Level.SEVERE, ex.getMessage());
+        }
 
         RequestQueue queue = Volley.newRequestQueue(ChatActivity.this);
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, response -> {
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, url, postData, response -> {
             try {
-                String botResponse = response.getString("cnt");
-                messageModelArrayList.add(new MessageModel(botResponse, BOT_KEY));
-                messageRVAdapter.notifyDataSetChanged();
-            } catch (JSONException e) {
+                if (conversation == null) {
+                    conversation = response.getString("conversation");
+                }
+                displayMessage(response.getString("message"), "bot");
+            }
+            catch (JSONException e) {
                 Logger.getLogger(ChatActivity.class.getName()).log(Level.SEVERE, e.getMessage());
-                messageModelArrayList.add(new MessageModel("No response", BOT_KEY));
-                messageRVAdapter.notifyDataSetChanged();
+                displayMessage("No response", "bot");
             }
         }, error -> {
-            messageModelArrayList.add(new MessageModel("Sorry no response found", BOT_KEY));
-            messageRVAdapter.notifyDataSetChanged();
+            displayMessage("Sorry no response found", "bot");
             Toast.makeText(ChatActivity.this, "No response from the bot..", Toast.LENGTH_SHORT).show();
         });
         queue.add(jsonObjectRequest);
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    private void displayMessage(String message, String sender) {
+        messageModelArrayList.add(new MessageModel(message, sender));
+        messageRVAdapter.notifyDataSetChanged();
+        chatsRV.post(() -> chatsRV.scrollToPosition(messageRVAdapter.getItemCount() - 1));
     }
 }
