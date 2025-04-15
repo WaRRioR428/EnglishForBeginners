@@ -100,9 +100,24 @@ public class TestActivity extends AppCompatActivity {
         if (!isExam) {
             testID = extras.getInt("testID");
         }
+        setGrammarFlag();
+
+        ConstraintLayout layout = findViewById(R.id.testLayout);
+        if (isExam) {
+            if (testTheme.equals("Экзамен")) {
+                layout.setBackgroundResource(R.drawable.exam);
+            }
+            else {
+                layout.setBackgroundResource(R.drawable.mini_exam);
+            }
+        }
         else {
-            ConstraintLayout layout = findViewById(R.id.testLayout);
-            layout.setBackgroundResource(R.drawable.exam);
+            if (grammarFlag) {
+                layout.setBackgroundResource(R.drawable.grammar_test);
+            }
+            else {
+                layout.setBackgroundResource(R.drawable.word_test);
+            }
         }
 
         mpCorrect = MediaPlayer.create(this, R.raw.correct);
@@ -146,7 +161,6 @@ public class TestActivity extends AppCompatActivity {
             }
         });
 
-        setGrammarFlag();
         if (!isExam && !grammarFlag) {
             wrongWords = new ArrayList<>();
             for (Object task : tasks) {
