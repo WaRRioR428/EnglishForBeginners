@@ -54,16 +54,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_main);
+        loadMenu();
+    }
+
+    private void loadMenu(){
         mainContext = this;
 
         this.databaseAccess = DatabaseAccess.getInstance(this);
         databaseAccess.open();
         if (CollectionUtils.isEmpty(databaseAccess.getAllWordTests()) || CollectionUtils.isEmpty(databaseAccess.getAllGrammarTests())) {
             initLoadDialog(this);
-            databaseAccess.open();
         }
         String wordProgress = databaseAccess.getProgressStats(false);
         String grammarProgress = databaseAccess.getProgressStats(true);
+        isAllComplete = databaseAccess.isAllComplete();
         databaseAccess.close();
 
         ImageButton chat = findViewById(R.id.buttonChat);
@@ -81,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         stats.setOnClickListener(onClickStats);
 
         Button wordTasksList = findViewById(R.id.buttonWords);
-        SpannableString ss = new SpannableString(wordTasksList.getText().toString() + "\n" + wordProgress);
+        SpannableString ss = new SpannableString(getResources().getString(R.string.button_word_tests) + "\n" + wordProgress);
         ss.setSpan(new RelativeSizeSpan(0.5f), (ss.length() - wordProgress.length()), ss.length(), 0);
         wordTasksList.setText(ss);
         View.OnClickListener onClickWordTasksList = v -> {
@@ -92,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         wordTasksList.setOnClickListener(onClickWordTasksList);
 
         Button grammarTasksList = findViewById(R.id.buttonGrammar);
-        ss = new SpannableString(grammarTasksList.getText().toString() + "\n" + grammarProgress);
+        ss = new SpannableString(getResources().getString(R.string.button_grammar_tests) + "\n" + grammarProgress);
         ss.setSpan(new RelativeSizeSpan(0.5f), (ss.length() - grammarProgress.length()), ss.length(), 0);
         grammarTasksList.setText(ss);
         View.OnClickListener onClickGrammarTasksList = v -> {
@@ -101,10 +105,6 @@ public class MainActivity extends AppCompatActivity {
             mainActivityResult.launch(intent);
         };
         grammarTasksList.setOnClickListener(onClickGrammarTasksList);
-
-        databaseAccess.open();
-        isAllComplete = databaseAccess.isAllComplete();
-        databaseAccess.close();
 
         examStart = findViewById(R.id.buttonExam);
         if (!isAllComplete) {
@@ -264,10 +264,6 @@ public class MainActivity extends AppCompatActivity {
 
     private final ActivityResultLauncher<Intent> mainActivityResult = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
-            result -> {
-                databaseAccess.open();
-                examStart.setEnabled(databaseAccess.isAllComplete());
-                databaseAccess.close();
-            }
+            result -> loadMenu()
     );
 }
