@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
     private AlertDialog loadDialog;
     private boolean isAllComplete;
     private List<Object> randomTasks;
-    private Button examStart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -106,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         };
         grammarTasksList.setOnClickListener(onClickGrammarTasksList);
 
-        examStart = findViewById(R.id.buttonExam);
+        Button examStart = findViewById(R.id.buttonExam);
         if (!isAllComplete) {
             examStart.setBackground(AppCompatResources.getDrawable(this, R.drawable.round_button_disabled));
         }
