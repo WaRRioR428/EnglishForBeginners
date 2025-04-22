@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         databaseAccess.open();
         if (CollectionUtils.isEmpty(databaseAccess.getAllWordTests()) || CollectionUtils.isEmpty(databaseAccess.getAllGrammarTests())) {
             initLoadDialog(this);
+            databaseAccess.open();
         }
         String wordProgress = databaseAccess.getProgressStats(false);
         String grammarProgress = databaseAccess.getProgressStats(true);

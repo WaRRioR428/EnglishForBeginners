@@ -4,6 +4,7 @@ import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -19,11 +20,11 @@ import android.text.style.BackgroundColorSpan;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -169,6 +170,7 @@ public class TranscriptionGameActivity extends AppCompatActivity {
         tries = 1;
 
         View.OnClickListener onClickButtonApply = v -> {
+            hideKeyboard(context);
             inputWord = input.getText().toString();
             if (inputWord.equals(word.word().toLowerCase())) {
                 dlPath = "";
@@ -201,7 +203,7 @@ public class TranscriptionGameActivity extends AppCompatActivity {
         transcription.setText(word.transcription());
         transcription.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
 
-        input.setFilters(new InputFilter[] {filter, new InputFilter.LengthFilter(word.word().length() + 5)});
+        input.setFilters(new InputFilter[] {filter, new InputFilter.LengthFilter(10)});
     }
 
     @SuppressLint("SetTextI18n")
@@ -234,12 +236,12 @@ public class TranscriptionGameActivity extends AppCompatActivity {
         stats.totalTries = stats.totalTries + ((tries == 6) ? (tries - 1) : tries);
         if (success) {
             mpSuccess.start();
-            transcription.setText("Поздравляем!\n Вы справились!");
+            transcription.setText("Поздравляем!\nВы справились!");
             stats.successfulGames++;
         }
         else {
             mpFail.start();
-            transcription.setText("Вы проиграли.\nЗагаданное слово: " + word.word());
+            transcription.setText("Вы проиграли.\nЗагаданное слово:\n" + word.word());
         }
         databaseAccess.updateRequiredStats(stats, "game");
         databaseAccess.close();
@@ -297,7 +299,7 @@ public class TranscriptionGameActivity extends AppCompatActivity {
         }
 
         textView.setText(ssb);
-        textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 35);
+        textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 30);
         textView.setTypeface(null, Typeface.BOLD);
         textView.setPadding(0, 25, 0, 25);
         textView.setGravity(Gravity.CENTER);
@@ -400,5 +402,14 @@ public class TranscriptionGameActivity extends AppCompatActivity {
 
     private static int areEqualChars(char first, char second){
         return (first == second) ? 0 : 1;
+    }
+
+    private static void hideKeyboard(Activity activity) {
+        InputMethodManager imm = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        View view = activity.getCurrentFocus();
+        if (view == null) {
+            view = new View(activity);
+        }
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 }
