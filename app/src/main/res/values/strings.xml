@@ -18,6 +18,7 @@
     <string name="main_image_description">Приложение для изучения английского языка на начальном уровне</string>
     <string name="theory_image_description">Теория для теста</string>
     <string name="edit_hint">Введите слово-попытку</string>
+    <string name="allowed_symbols">qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM\n,.!\?\'\"1234567890[]{};-+=()*&amp;№$%#^_/\\`~\@&lt;&gt;</string>
     <string name="chat_hint">Напишите что-нибудь…</string>
     <string name="chat_send_button_description">Отправить сообщение</string>
     <string name="chat_icon_description">Сообщение</string>

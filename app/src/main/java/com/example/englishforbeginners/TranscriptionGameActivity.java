@@ -108,12 +108,12 @@ public class TranscriptionGameActivity extends AppCompatActivity {
             }
         });
 
-        filter = (source, start, end, dest, dstart, dend) -> {
+        filter = (source, start, end, dEst, dStart, dEnd) -> {
             for (int i = start; i < end; i++) {
                 char ch = source.charAt(i);
                 if (!Character.isLetter(ch) || !Character.isLowerCase(ch)) {
                     String newSource = source.toString();
-                    newSource = newSource.substring(0, i) + newSource.substring(i+1, end);
+                    newSource = newSource.substring(0, i) + newSource.substring(i + 1, end);
                     return newSource;
                 }
             }

@@ -3,6 +3,7 @@ package com.example.englishforbeginners;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputFilter;
 import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -32,11 +33,11 @@ import java.util.logging.Logger;
 
 public class ChatActivity extends AppCompatActivity {
 
-    private EditText userMsgEdt;
+    private EditText userInput;
 
     private ArrayList<MessageModel> messageModelArrayList;
     private MessageRVAdapter messageRVAdapter;
-    private RecyclerView chatsRV;
+    private RecyclerView chatRV;
 
     private String conversation;
     private int messagesSent;
@@ -54,23 +55,24 @@ public class ChatActivity extends AppCompatActivity {
         messageModelArrayList = new ArrayList<>();
         messageRVAdapter = new MessageRVAdapter(messageModelArrayList);
 
-        chatsRV = findViewById(R.id.idRVChats);
+        chatRV = findViewById(R.id.chatView);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(ChatActivity.this, RecyclerView.VERTICAL, false);
-        chatsRV.setLayoutManager(linearLayoutManager);
-        chatsRV.setAdapter(messageRVAdapter);
+        chatRV.setLayoutManager(linearLayoutManager);
+        chatRV.setAdapter(messageRVAdapter);
 
-        ImageButton sendMsgIB = findViewById(R.id.idIBSend);
+        ImageButton sendMsgIB = findViewById(R.id.buttonSend);
         sendMsgIB.setOnClickListener(v -> {
-            String message = userMsgEdt.getText().toString();
+            String message = userInput.getText().toString();
             if (message.trim().isEmpty()) {
                 Toast.makeText(ChatActivity.this, "Введите ваше сообщение...", Toast.LENGTH_SHORT).show();
                 return;
             }
             sendMessage(message);
-            userMsgEdt.setText("");
+            userInput.setText("");
         });
 
-        userMsgEdt = findViewById(R.id.idEdtMessage);
+        userInput = findViewById(R.id.userInput);
+        userInput.setFilters(new InputFilter[] {new InputFilter.LengthFilter(100)});
 
         RequestQueue mRequestQueue = Volley.newRequestQueue(ChatActivity.this);
         mRequestQueue.getCache().clear();
@@ -145,6 +147,6 @@ public class ChatActivity extends AppCompatActivity {
     private void displayMessage(String message, String sender) {
         messageModelArrayList.add(new MessageModel(message, sender));
         messageRVAdapter.notifyDataSetChanged();
-        chatsRV.post(() -> chatsRV.scrollToPosition(messageRVAdapter.getItemCount() - 1));
+        chatRV.post(() -> chatRV.scrollToPosition(messageRVAdapter.getItemCount() - 1));
     }
 }
