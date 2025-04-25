@@ -30,14 +30,15 @@
         android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginTop="20dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
+        android:layout_marginTop="25dp"
         android:background="#FFFFFF"
         android:fontFamily="@font/bowlby_one"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="21sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar" />
 
@@ -52,7 +53,7 @@
         android:fontFamily="sans-serif"
         android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/question" />
@@ -70,7 +71,7 @@
         android:fontFamily="sans-serif"
         android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/task" />
@@ -88,7 +89,7 @@
         android:fontFamily="sans-serif"
         android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/trans" />

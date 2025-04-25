@@ -429,7 +429,7 @@ public class TestActivity extends AppCompatActivity {
         };
         buttonClear.setOnClickListener(onClickButtonClear);
 
-        question.setText("Составьте слова в предложение: ");
+        question.setText("Составьте слова в предложение:");
         String sentenceString = cs.translation();
         taskText.setText(sentenceString);
         punktMark = sentenceString.substring(sentenceString.length() - 1);
@@ -509,7 +509,7 @@ public class TestActivity extends AppCompatActivity {
         buttonApply.setEnabled(false);
         buttonClear.setEnabled(false);
 
-        question.setText("Заполните пропуск: ");
+        question.setText("Заполните пропуск:");
         taskText.setText(mw.getSentence());
         transText.setText(mw.getTranslation());
         correctAnswer = mw.getCorrectAnswer();
@@ -587,7 +587,7 @@ public class TestActivity extends AppCompatActivity {
         buttonApply.setEnabled(false);
         buttonClear.setEnabled(false);
 
-        question.setText("Пожалуйста, выберите верный перевод:");
+        question.setText("Выберите верный перевод:");
         taskText.setText(word.word());
         transText.setText(word.transcription());
         correctAnswer = word.translation();

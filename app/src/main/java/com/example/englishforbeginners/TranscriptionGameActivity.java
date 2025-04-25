@@ -76,7 +76,7 @@ public class TranscriptionGameActivity extends AppCompatActivity {
         triesLayout = findViewById(R.id.scrollLayout);
 
         question = findViewById(R.id.question);
-        question.setText("Отгадайте слово по транскрипции");
+        question.setText("Отгадайте слово по транскрипции:");
 
         transcription = findViewById(R.id.transcription);
 
@@ -201,7 +201,7 @@ public class TranscriptionGameActivity extends AppCompatActivity {
 
         getRandomWordFromDB();
         transcription.setText(word.transcription());
-        transcription.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
+        transcription.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
 
         input.setFilters(new InputFilter[] {filter, new InputFilter.LengthFilter(10)});
     }
