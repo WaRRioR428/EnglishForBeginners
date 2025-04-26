@@ -7,91 +7,91 @@
             <id>1</id>
             <word>Body</word>
             <transcription>[‘bɔdɪ]</transcription>
-            <translation>тело</translation>
+            <translation>Тело</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Head</word>
             <transcription>[hed]</transcription>
-            <translation>голова</translation>
+            <translation>Голова</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Shoulder</word>
             <transcription>[‘ʃəuldə]</transcription>
-            <translation>плечо</translation>
+            <translation>Плечо</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Arm</word>
             <transcription>[ɑːm]</transcription>
-            <translation>рука</translation>
+            <translation>Рука</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Hand</word>
             <transcription>[hænd]</transcription>
-            <translation>кисть</translation>
+            <translation>Кисть</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Elbow</word>
             <transcription>[‘elbəu]</transcription>
-            <translation>локоть</translation>
+            <translation>Локоть</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Chest</word>
             <transcription>[ʧest]</transcription>
-            <translation>грудь</translation>
+            <translation>Грудь</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Stomach</word>
             <transcription>[‘stʌmək]</transcription>
-            <translation>живот</translation>
+            <translation>Живот</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Back</word>
             <transcription>[bæk]</transcription>
-            <translation>спина</translation>
+            <translation>Спина</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Waist</word>
             <transcription>[weɪst]</transcription>
-            <translation>талия</translation>
+            <translation>Талия</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Leg</word>
             <transcription>[leg]</transcription>
-            <translation>нога</translation>
+            <translation>Нога</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Knee</word>
             <transcription>[niː]</transcription>
-            <translation>колено</translation>
+            <translation>Колено</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Calf</word>
             <transcription>[kɑːf]</transcription>
-            <translation>икра</translation>
+            <translation>Икра</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Foot</word>
             <transcription>[fut]</transcription>
-            <translation>ступня</translation>
+            <translation>Ступня</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Heel</word>
             <transcription>[hiːl]</transcription>
-            <translation>пятка</translation>
+            <translation>Пятка</translation>
         </WordTask>
     </Test>
 
@@ -102,91 +102,91 @@
             <id>1</id>
             <word>Family</word>
             <transcription>[‘fæm(ə)lɪ]</transcription>
-            <translation>семья</translation>
+            <translation>Семья</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Mother</word>
             <transcription>[‘mʌðə]</transcription>
-            <translation>мама</translation>
+            <translation>Мама</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Father</word>
             <transcription>[‘fɑːðə]</transcription>
-            <translation>папа</translation>
+            <translation>Папа</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Parents</word>
             <transcription>[‘peər(ə)nts]</transcription>
-            <translation>родители</translation>
+            <translation>Родители</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Son</word>
             <transcription>[sʌn]</transcription>
-            <translation>сын</translation>
+            <translation>Сын</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Daughter</word>
             <transcription>[‘dɔːtə]</transcription>
-            <translation>дочь</translation>
+            <translation>Дочь</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Children</word>
             <transcription>[‘ʧɪldr(ə)n]</transcription>
-            <translation>дети</translation>
+            <translation>Дети</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Sister</word>
             <transcription>[‘sɪstə]</transcription>
-            <translation>сестра</translation>
+            <translation>Сестра</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Brother</word>
             <transcription>[‘brʌðə]</transcription>
-            <translation>брат</translation>
+            <translation>Брат</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Grandmother</word>
             <transcription>[‘græn(d)ˌmʌðə]</transcription>
-            <translation>бабушка</translation>
+            <translation>Бабушка</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Grandfather</word>
             <transcription>[‘græn(d)ˌfɑːðə]</transcription>
-            <translation>дедушка</translation>
+            <translation>Дедушка</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Grandson</word>
             <transcription>[‘græn(d)sʌn]</transcription>
-            <translation>внук</translation>
+            <translation>Внук</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Granddaughter</word>
             <transcription>[‘græn(d)ˌdɔːtə]</transcription>
-            <translation>внучка</translation>
+            <translation>Внучка</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Aunt</word>
             <transcription>[ɑːnt]</transcription>
-            <translation>тётя</translation>
+            <translation>Тётя</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Uncle</word>
             <transcription>[‘ʌŋkl]</transcription>
-            <translation>дядя</translation>
+            <translation>Дядя</translation>
         </WordTask>
     </Test>
 
@@ -197,91 +197,91 @@
             <id>1</id>
             <word>House</word>
             <transcription>[haus]</transcription>
-            <translation>дом</translation>
+            <translation>Дом</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Apartment</word>
             <transcription>[ə’pɑːtmənt]</transcription>
-            <translation>квартира</translation>
+            <translation>Квартира</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Room</word>
             <transcription>[ruːm]</transcription>
-            <translation>комната</translation>
+            <translation>Комната</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Bathroom</word>
             <transcription>[ə’pɑːtmənt]</transcription>
-            <translation>ванная, туалет</translation>
+            <translation>Ванная, туалет</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Balcony</word>
             <transcription>[‘bælkənɪ]</transcription>
-            <translation>балкон</translation>
+            <translation>Балкон</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Bedroom</word>
             <transcription>[‘bedruːm]</transcription>
-            <translation>спальня</translation>
+            <translation>Спальня</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Closet</word>
             <transcription>[‘klɔzɪt]</transcription>
-            <translation>шкаф</translation>
+            <translation>Шкаф</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Door</word>
             <transcription>[dɔː]</transcription>
-            <translation>дверь</translation>
+            <translation>Дверь</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Roof</word>
             <transcription>[ruːf]</transcription>
-            <translation>крыша</translation>
+            <translation>Крыша</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Window</word>
             <transcription>[‘wɪndəu]</transcription>
-            <translation>окно</translation>
+            <translation>Окно</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Garage</word>
             <transcription>[‘gærɑːʒ]</transcription>
-            <translation>гараж</translation>
+            <translation>Гараж</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Hall</word>
             <transcription>[hɔːl]</transcription>
-            <translation>зал</translation>
+            <translation>Зал</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Kitchen</word>
             <transcription>[‘kɪʧɪn]</transcription>
-            <translation>кухня</translation>
+            <translation>Кухня</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Shower</word>
             <transcription>[‘ʃəuə]</transcription>
-            <translation>душ</translation>
+            <translation>Душ</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Stairs</word>
             <transcription>[steə’z]</transcription>
-            <translation>лестница</translation>
+            <translation>Лестница</translation>
         </WordTask>
     </Test>
 
@@ -292,91 +292,91 @@
             <id>1</id>
             <word>Food</word>
             <transcription>[fuːd]</transcription>
-            <translation>еда</translation>
+            <translation>Еда</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Sausage</word>
             <transcription>[‘sɔsɪʤ]</transcription>
-            <translation>колбаса</translation>
+            <translation>Колбаса</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Meat</word>
             <transcription>[miːt]</transcription>
-            <translation>мясо</translation>
+            <translation>Мясо</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Egg</word>
             <transcription>[eg]</transcription>
-            <translation>яйцо</translation>
+            <translation>Яйцо</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Pizza</word>
             <transcription>[‘piːtsə]</transcription>
-            <translation>пицца</translation>
+            <translation>Пицца</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Soup</word>
             <transcription>[suːp]</transcription>
-            <translation>суп</translation>
+            <translation>Суп</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Bread</word>
             <transcription>[bred]</transcription>
-            <translation>хлеб</translation>
+            <translation>Хлеб</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Milk</word>
             <transcription>[mɪlk]</transcription>
-            <translation>молоко</translation>
+            <translation>Молоко</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Porridge</word>
             <transcription>[‘pɔrɪʤ]</transcription>
-            <translation>каша</translation>
+            <translation>Каша</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Salad</word>
             <transcription>[‘sæləd]</transcription>
-            <translation>салат</translation>
+            <translation>Салат</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Cheese</word>
             <transcription>[ʧiːz]</transcription>
-            <translation>сыр</translation>
+            <translation>Сыр</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Rice</word>
             <transcription>[raɪs]</transcription>
-            <translation>рис</translation>
+            <translation>Рис</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Pasta</word>
             <transcription>[‘pæstə]</transcription>
-            <translation>макароны</translation>
+            <translation>Макароны</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Sandwich</word>
             <transcription>[‘sænwɪʤ]</transcription>
-            <translation>бутерброд</translation>
+            <translation>Бутерброд</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Cookie</word>
             <transcription>[‘kukɪ]</transcription>
-            <translation>печенье</translation>
+            <translation>Печенье</translation>
         </WordTask>
     </Test>
 
@@ -387,91 +387,91 @@
             <id>1</id>
             <word>Fruit</word>
             <transcription>[fruːt]</transcription>
-            <translation>фрукт</translation>
+            <translation>Фрукт</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Apricot</word>
             <transcription>[‘eɪprɪkɔt]</transcription>
-            <translation>абрикос</translation>
+            <translation>Абрикос</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Pineapple</word>
             <transcription>[‘paɪnæpl]</transcription>
-            <translation>ананас</translation>
+            <translation>Ананас</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Banana</word>
             <transcription>[bə’nɑːnə]</transcription>
-            <translation>банан</translation>
+            <translation>Банан</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Grape</word>
             <transcription>[greɪp]</transcription>
-            <translation>виноград</translation>
+            <translation>Виноград</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Grapefruit</word>
             <transcription>[‘greɪpfruːt]</transcription>
-            <translation>грейпфрут</translation>
+            <translation>Грейпфрут</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Pear</word>
             <transcription>[peə]</transcription>
-            <translation>груша</translation>
+            <translation>Груша</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Melon</word>
             <transcription>[‘melən]</transcription>
-            <translation>дыня</translation>
+            <translation>Дыня</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Lemon</word>
             <transcription>[‘lemən]</transcription>
-            <translation>лимон</translation>
+            <translation>Лимон</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Mandarin</word>
             <transcription>[‘mænd(ə)rɪn]</transcription>
-            <translation>мандарин</translation>
+            <translation>Мандарин</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Peach</word>
             <transcription>[piːʧ]</transcription>
-            <translation>персик</translation>
+            <translation>Персик</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Plum</word>
             <transcription>[plʌm]</transcription>
-            <translation>слива</translation>
+            <translation>Слива</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Apple</word>
             <transcription>[‘æpl]</transcription>
-            <translation>яблоко</translation>
+            <translation>Яблоко</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Lime</word>
             <transcription>[laɪm]</transcription>
-            <translation>лайм</translation>
+            <translation>Лайм</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Kiwi</word>
             <transcription>[‘kiːwiː]</transcription>
-            <translation>киви</translation>
+            <translation>Киви</translation>
         </WordTask>
     </Test>
 
@@ -482,91 +482,91 @@
             <id>1</id>
             <word>Vegetable</word>
             <transcription>[‘veʤ(ə)təbl]</transcription>
-            <translation>овощ</translation>
+            <translation>Овощ</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Pea</word>
             <transcription>[piː]</transcription>
-            <translation>горох</translation>
+            <translation>Горох</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Cabbage</word>
             <transcription>[‘kæbɪʤ]</transcription>
-            <translation>капуста</translation>
+            <translation>Капуста</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Potato</word>
             <transcription>[pə’teɪtəu]</transcription>
-            <translation>картофель</translation>
+            <translation>Картофель</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Onion</word>
             <transcription>[‘ʌnjən]</transcription>
-            <translation>лук</translation>
+            <translation>Лук</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Carrot</word>
             <transcription>[‘kærət]</transcription>
-            <translation>морковь</translation>
+            <translation>Морковь</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Cucumber</word>
             <transcription>[‘kjuːkʌmbə]</transcription>
-            <translation>огурец</translation>
+            <translation>Огурец</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Pepper</word>
             <transcription>[‘pepə]</transcription>
-            <translation>перец</translation>
+            <translation>Перец</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Tomato</word>
             <transcription>[tə’mɑːtəu]</transcription>
-            <translation>помидор</translation>
+            <translation>Помидор</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Radish</word>
             <transcription>[‘rædɪʃ]</transcription>
-            <translation>редис</translation>
+            <translation>Редис</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Beet</word>
             <transcription>[biːt]</transcription>
-            <translation>свекла</translation>
+            <translation>Свекла</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Pumpkin</word>
             <transcription>[‘pʌmpkɪn]</transcription>
-            <translation>тыква</translation>
+            <translation>Тыква</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Dill</word>
             <transcription>[dɪl]</transcription>
-            <translation>укроп</translation>
+            <translation>Укроп</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Haricot</word>
             <transcription>[‘hærɪkəu]</transcription>
-            <translation>фасоль</translation>
+            <translation>Фасоль</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Garlic</word>
             <transcription>[‘gɑːlɪk]</transcription>
-            <translation>чеснок</translation>
+            <translation>Чеснок</translation>
         </WordTask>
     </Test>
 
@@ -577,91 +577,91 @@
             <id>1</id>
             <word>Drink</word>
             <transcription>[drɪŋk]</transcription>
-            <translation>напиток</translation>
+            <translation>Напиток</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Soft drink</word>
             <transcription>[sɒft drɪŋk]</transcription>
-            <translation>безалкогольный напиток</translation>
+            <translation>Безалкогольный напиток</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Water</word>
             <transcription>[ˈwɔːtə]</transcription>
-            <translation>вода</translation>
+            <translation>Вода</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Lemonade</word>
             <transcription>[ˌlɛməˈneɪd]</transcription>
-            <translation>лимонад</translation>
+            <translation>Лимонад</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Tea</word>
             <transcription>[tiː]</transcription>
-            <translation>чай</translation>
+            <translation>Чай</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Coffee</word>
             <transcription>[ˈkɒfɪ]</transcription>
-            <translation>кофе</translation>
+            <translation>Кофе</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Juice</word>
             <transcription>[dʒuːs]</transcription>
-            <translation>сок</translation>
+            <translation>Сок</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Cocoa</word>
             <transcription>[ˈkəʊkəʊ]</transcription>
-            <translation>какао</translation>
+            <translation>Какао</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Orange juice</word>
             <transcription>[ˈɒrɪndʒ dʒuːs]</transcription>
-            <translation>апельсиновый сок</translation>
+            <translation>Апельсиновый сок</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Tomato juice</word>
             <transcription>[təˈmɑːtəʊ dʒuːs]</transcription>
-            <translation>томатный сок</translation>
+            <translation>Томатный сок</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Fruit juice</word>
             <transcription>[fruːt dʒuːs]</transcription>
-            <translation>фруктовый сок</translation>
+            <translation>Фруктовый сок</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Vegetable juice</word>
             <transcription>[ˈvɛdʒ(ə)təbl dʒuːs]</transcription>
-            <translation>овощной сок</translation>
+            <translation>Овощной сок</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Alcohol</word>
             <transcription>[ˈælkəhɒl]</transcription>
-            <translation>алкоголь</translation>
+            <translation>Алкоголь</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Beer</word>
             <transcription>[bɪə]</transcription>
-            <translation>пиво</translation>
+            <translation>Пиво</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Wine</word>
             <transcription>[waɪn]</transcription>
-            <translation>вино</translation>
+            <translation>Вино</translation>
         </WordTask>
     </Test>
 
@@ -672,91 +672,91 @@
             <id>1</id>
             <word>Clothes</word>
             <transcription>[kləuðz]</transcription>
-            <translation>одежда</translation>
+            <translation>Одежда</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Skirt</word>
             <transcription>[skɜːt]</transcription>
-            <translation>юбка</translation>
+            <translation>Юбка</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Dress</word>
             <transcription>[dres]</transcription>
-            <translation>платье</translation>
+            <translation>Платье</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Shirt</word>
             <transcription>[ʃɜːt]</transcription>
-            <translation>рубашка</translation>
+            <translation>Рубашка</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Socks</word>
             <transcription>[sɔk]</transcription>
-            <translation>носки</translation>
+            <translation>Носки</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Suit</word>
             <transcription>[s(j)uːt]</transcription>
-            <translation>костюм</translation>
+            <translation>Костюм</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Jeans</word>
             <transcription>[ʤiːnz]</transcription>
-            <translation>джинсы</translation>
+            <translation>Джинсы</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Shorts</word>
             <transcription>[ʃɔːts]</transcription>
-            <translation>шорты</translation>
+            <translation>Шорты</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>T-shirt</word>
             <transcription>[‘tiːʃɜːt]</transcription>
-            <translation>футболка</translation>
+            <translation>Футболка</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Hat</word>
             <transcription>[hæt]</transcription>
-            <translation>шляпа</translation>
+            <translation>Шляпа</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Shoes</word>
             <transcription>[ʃuːz]</transcription>
-            <translation>туфли</translation>
+            <translation>Туфли</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Boots</word>
             <transcription>[buːts]</transcription>
-            <translation>ботинки</translation>
+            <translation>Ботинки</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Sneakers</word>
             <transcription>[‘sniːkəz]</transcription>
-            <translation>кроcсовки</translation>
+            <translation>Кроcсовки</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Jacket</word>
             <transcription>[‘ʤækɪt]</transcription>
-            <translation>куртка</translation>
+            <translation>Куртка</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Coat</word>
             <transcription>[kəut]</transcription>
-            <translation>пальто</translation>
+            <translation>Пальто</translation>
         </WordTask>
     </Test>
 
@@ -767,97 +767,97 @@
             <id>1</id>
             <word>Nature</word>
             <transcription>[‘neɪʧə]</transcription>
-            <translation>природа</translation>
+            <translation>Природа</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Beach</word>
             <transcription>[biːʧ]</transcription>
-            <translation>пляж</translation>
+            <translation>Пляж</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Desert</word>
             <transcription>[‘dezət]</transcription>
-            <translation>пустыня</translation>
+            <translation>Пустыня</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Glacier</word>
             <transcription>[‘glæsɪə]</transcription>
-            <translation>ледник</translation>
+            <translation>Ледник</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Forest</word>
             <transcription>[‘fɔrɪst]</transcription>
-            <translation>лес</translation>
+            <translation>Лес</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Field</word>
             <transcription>[fiːld]</transcription>
-            <translation>поле</translation>
+            <translation>Поле</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Canyon</word>
             <transcription>[ˈkænjən]</transcription>
-            <translation>каньон</translation>
+            <translation>Каньон</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Island</word>
             <transcription>[ˈaɪlənd]</transcription>
-            <translation>остров</translation>
+            <translation>Остров</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Jungle</word>
             <transcription>[‘ʤʌŋgl]</transcription>
-            <translation>джунгли</translation>
+            <translation>Джунгли</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Lake</word>
             <transcription>[leɪk]</transcription>
-            <translation>озеро</translation>
+            <translation>Озеро</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Mountain</word>
             <transcription>[‘mauntɪn]</transcription>
-            <translation>гора</translation>
+            <translation>Гора</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Rock</word>
             <transcription>[rɔk]</transcription>
-            <translation>камень</translation>
+            <translation>Камень</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Ocean</word>
             <transcription>[‘əuʃ(ə)n]</transcription>
-            <translation>океан</translation>
+            <translation>Океан</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Sea</word>
             <transcription>[siː]</transcription>
-            <translation>море</translation>
+            <translation>Море</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>River</word>
             <transcription>[‘rɪvə]</transcription>
-            <translation>река</translation>
+            <translation>Река</translation>
         </WordTask>
         <WordTask>
             <id>16</id>
             <word>Iceberg</word>
             <transcription>[‘aɪs.bɜ:ɡ]</transcription>
-            <translation>айсберг</translation>
+            <translation>Айсберг</translation>
         </WordTask>
     </Test>
 
@@ -868,91 +868,91 @@
             <id>1</id>
             <word>Animal</word>
             <transcription>[‘ænɪm(ə)l]</transcription>
-            <translation>животное</translation>
+            <translation>Животное</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Bear</word>
             <transcription>[beə]</transcription>
-            <translation>медведь</translation>
+            <translation>Медведь</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Fox</word>
             <transcription>[fɒks]</transcription>
-            <translation>лиса</translation>
+            <translation>Лиса</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Rabbit</word>
             <transcription>[ˈræbɪt]</transcription>
-            <translation>заяц</translation>
+            <translation>Заяц</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Wolf</word>
             <transcription>[wʊlf]</transcription>
-            <translation>волк</translation>
+            <translation>Волк</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Deer</word>
             <transcription>[dɪə]</transcription>
-            <translation>олень</translation>
+            <translation>Олень</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Moose</word>
             <transcription>[muːs]</transcription>
-            <translation>лось</translation>
+            <translation>Лось</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Donkey</word>
             <transcription>[ˈdɒŋkɪ]</transcription>
-            <translation>осел</translation>
+            <translation>Осел</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Camel</word>
             <transcription>[ˈkæm(ə)l]</transcription>
-            <translation>верблюд</translation>
+            <translation>Верблюд</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Giraffe</word>
             <transcription>[ʤɪ’rɑːf]</transcription>
-            <translation>жираф</translation>
+            <translation>Жираф</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Hippopotamus</word>
             <transcription>[ˌhɪpə’pɔtəməs]</transcription>
-            <translation>бегемот</translation>
+            <translation>Бегемот</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Zebra</word>
             <transcription>[‘zebrə]</transcription>
-            <translation>зебра</translation>
+            <translation>Зебра</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Kangaroo</word>
             <transcription>[ˌkæŋg(ə)’ruː]</transcription>
-            <translation>кенгуру</translation>
+            <translation>Кенгуру</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Elephant</word>
             <transcription>[‘elɪfənt]</transcription>
-            <translation>слон</translation>
+            <translation>Слон</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Horse</word>
             <transcription>[hɔːs]</transcription>
-            <translation>лошадь</translation>
+            <translation>Лошадь</translation>
         </WordTask>
     </Test>
 
@@ -963,103 +963,103 @@
             <id>1</id>
             <word>Pet</word>
             <transcription>[pɛt]</transcription>
-            <translation>домашнее животное</translation>
+            <translation>Домашнее животное</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Cat</word>
             <transcription>[kæt]</transcription>
-            <translation>кот</translation>
+            <translation>Кот</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Dog</word>
             <transcription>[dɒɡ]</transcription>
-            <translation>собака</translation>
+            <translation>Собака</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Hamster</word>
             <transcription>[ˈhæmstə]</transcription>
-            <translation>хомяк</translation>
+            <translation>Хомяк</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Chicken</word>
             <transcription>[ˈtʃɪkɪn]</transcription>
-            <translation>курица</translation>
+            <translation>Курица</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Rooster</word>
             <transcription>[ˈruːstə]</transcription>
-            <translation>петух</translation>
+            <translation>Петух</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Goat</word>
             <transcription>[ɡəʊt]</transcription>
-            <translation>козел</translation>
+            <translation>Козел</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Sheep</word>
             <transcription>[ʃiːp]</transcription>
-            <translation>овца</translation>
+            <translation>Овца</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Bull</word>
             <transcription>[bʊl]</transcription>
-            <translation>бык</translation>
+            <translation>Бык</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Cow</word>
             <transcription>[kaʊ]</transcription>
-            <translation>корова</translation>
+            <translation>Корова</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Horse</word>
             <transcription>[hɔːs]</transcription>
-            <translation>лошадь</translation>
+            <translation>Лошадь</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Pig</word>
             <transcription>[pɪɡ]</transcription>
-            <translation>свинья</translation>
+            <translation>Свинья</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Guinea pig</word>
             <transcription>[ˈɡɪnɪˌpɪɡ]</transcription>
-            <translation>морская свинка</translation>
+            <translation>Морская свинка</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Turkey</word>
             <transcription>[ˈtɜːkɪ]</transcription>
-            <translation>индюк</translation>
+            <translation>Индюк</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Farm</word>
             <transcription>[fɑːm]</transcription>
-            <translation>ферма</translation>
+            <translation>Ферма</translation>
         </WordTask>
         <WordTask>
             <id>16</id>
             <word>Rat</word>
             <transcription>[ræt]</transcription>
-            <translation>крыса</translation>
+            <translation>Крыса</translation>
         </WordTask>
         <WordTask>
             <id>17</id>
             <word>Mouse</word>
             <transcription>[maʊs]</transcription>
-            <translation>мышь</translation>
+            <translation>Мышь</translation>
         </WordTask>
     </Test>
 
@@ -1070,91 +1070,91 @@
             <id>1</id>
             <word>Transport</word>
             <transcription>[ˌtræn(t)spɔː’t]</transcription>
-            <translation>транспорт</translation>
+            <translation>Транспорт</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Airplane</word>
             <transcription>[‘eəpleɪn]</transcription>
-            <translation>самолёт</translation>
+            <translation>Самолёт</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Ambulance</word>
             <transcription>[‘æmbjələn(t)s]</transcription>
-            <translation>скорая помощь</translation>
+            <translation>Скорая помощь</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Bus</word>
             <transcription>[bʌs]</transcription>
-            <translation>автобус</translation>
+            <translation>Автобус</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Car</word>
             <transcription>[kɑː]</transcription>
-            <translation>автомобиль</translation>
+            <translation>Автомобиль</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Truck</word>
             <transcription>[trʌk]</transcription>
-            <translation>грузовик</translation>
+            <translation>Грузовик</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Fire truck</word>
             <transcription>[‘faɪə trʌk]</transcription>
-            <translation>пожарная машина</translation>
+            <translation>Пожарная машина</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Helicopter</word>
             <transcription>[‘helɪkɔptə]</transcription>
-            <translation>вертолёт</translation>
+            <translation>Вертолёт</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Motorcycle</word>
             <transcription>[‘məutəˌsaɪkl]</transcription>
-            <translation>мотоцикл</translation>
+            <translation>Мотоцикл</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Boat</word>
             <transcription>[bəʊt]</transcription>
-            <translation>лодка</translation>
+            <translation>Лодка</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Ship</word>
             <transcription>[ʃɪp]</transcription>
-            <translation>корабль</translation>
+            <translation>Корабль</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Submarine</word>
             <transcription>[ˌsʌbm(ə)’riːn]</transcription>
-            <translation>подводная лодка</translation>
+            <translation>Подводная лодка</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Tractor</word>
             <transcription>[‘træktə]</transcription>
-            <translation>трактор</translation>
+            <translation>Трактор</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Train</word>
             <transcription>[treɪn]</transcription>
-            <translation>поезд</translation>
+            <translation>Поезд</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Bicycle</word>
             <transcription>[ˈbaɪsɪk(ə)l]</transcription>
-            <translation>велосипед</translation>
+            <translation>Велосипед</translation>
         </WordTask>
     </Test>
 
@@ -1165,91 +1165,91 @@
             <id>1</id>
             <word>Profession</word>
             <transcription>[prəˈfɛʃ(ə)n]</transcription>
-            <translation>профессия</translation>
+            <translation>Профессия</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Teacher</word>
             <transcription>[ˈtiːtʃə]</transcription>
-            <translation>учитель</translation>
+            <translation>Учитель</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Waiter</word>
             <transcription>[ˈweɪtə]</transcription>
-            <translation>официант</translation>
+            <translation>Официант</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Driver</word>
             <transcription>[ˈdraɪvə]</transcription>
-            <translation>водитель</translation>
+            <translation>Водитель</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Engineer</word>
             <transcription>[ˌɛndʒɪˈnɪə]</transcription>
-            <translation>инженер</translation>
+            <translation>Инженер</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Lawyer</word>
             <transcription>[ˈlɔːjə]</transcription>
-            <translation>адвокат</translation>
+            <translation>Адвокат</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Accountant</word>
             <transcription>[əˈkaʊntənt]</transcription>
-            <translation>бухгалтер</translation>
+            <translation>Бухгалтер</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Manager</word>
             <transcription>[ˈmænɪdʒə]</transcription>
-            <translation>управляющий</translation>
+            <translation>Управляющий</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Builder</word>
             <transcription>[ˈbɪldə]</transcription>
-            <translation>строитель</translation>
+            <translation>Строитель</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Nurse</word>
             <transcription>[nɜːs]</transcription>
-            <translation>медсестра</translation>
+            <translation>Медсестра</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Vet</word>
             <transcription>[vɛt]</transcription>
-            <translation>ветеринар</translation>
+            <translation>Ветеринар</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Shop assistant</word>
             <transcription>[ˈʃɒpəˌsɪstənt]</transcription>
-            <translation>продавец</translation>
+            <translation>Продавец</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Doctor</word>
             <transcription>[ˈdɒktə]</transcription>
-            <translation>доктор</translation>
+            <translation>Доктор</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Policeman</word>
             <transcription>[pəˈliːsmən]</transcription>
-            <translation>полицейский</translation>
+            <translation>Полицейский</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Fireman</word>
             <transcription>[ˈfaɪəmən]</transcription>
-            <translation>пожарный</translation>
+            <translation>Пожарный</translation>
         </WordTask>
     </Test>
 
@@ -1260,91 +1260,91 @@
             <id>1</id>
             <word>Time</word>
             <transcription>[taɪm]</transcription>
-            <translation>время</translation>
+            <translation>Время</translation>
         </WordTask>
         <WordTask>
             <id>2</id>
             <word>Past</word>
             <transcription>[pɑːst]</transcription>
-            <translation>прошлое</translation>
+            <translation>Прошлое</translation>
         </WordTask>
         <WordTask>
             <id>3</id>
             <word>Future</word>
             <transcription>[ˈfjuːʧə]</transcription>
-            <translation>будущее</translation>
+            <translation>Будущее</translation>
         </WordTask>
         <WordTask>
             <id>4</id>
             <word>Present</word>
             <transcription>[ˈprɛznt]</transcription>
-            <translation>настоящее</translation>
+            <translation>Настоящее</translation>
         </WordTask>
         <WordTask>
             <id>5</id>
             <word>Century</word>
             <transcription>[ˈsɛnʧʊri]</transcription>
-            <translation>век</translation>
+            <translation>Век</translation>
         </WordTask>
         <WordTask>
             <id>6</id>
             <word>Year</word>
             <transcription>[jɪə]</transcription>
-            <translation>год</translation>
+            <translation>Год</translation>
         </WordTask>
         <WordTask>
             <id>7</id>
             <word>Month</word>
             <transcription>[mʌnθ]</transcription>
-            <translation>месяц</translation>
+            <translation>Месяц</translation>
         </WordTask>
         <WordTask>
             <id>8</id>
             <word>Week</word>
             <transcription>[wiːk]</transcription>
-            <translation>неделя</translation>
+            <translation>Неделя</translation>
         </WordTask>
         <WordTask>
             <id>9</id>
             <word>Day</word>
             <transcription>[deɪ]</transcription>
-            <translation>день</translation>
+            <translation>День</translation>
         </WordTask>
         <WordTask>
             <id>10</id>
             <word>Hour</word>
             <transcription>[ˈaʊə]</transcription>
-            <translation>час</translation>
+            <translation>Час</translation>
         </WordTask>
         <WordTask>
             <id>11</id>
             <word>Half an hour</word>
             <transcription>[hɑːf ən ˈaʊə]</transcription>
-            <translation>полчаса</translation>
+            <translation>Полчаса</translation>
         </WordTask>
         <WordTask>
             <id>12</id>
             <word>Minute</word>
             <transcription>[ˈmɪnɪt]</transcription>
-            <translation>минута</translation>
+            <translation>Минута</translation>
         </WordTask>
         <WordTask>
             <id>13</id>
             <word>Second</word>
             <transcription>[ˈsɛkənd]</transcription>
-            <translation>секунда</translation>
+            <translation>Секунда</translation>
         </WordTask>
         <WordTask>
             <id>14</id>
             <word>Watch</word>
             <transcription>[wɒʧ]</transcription>
-            <translation>часы (наручные)</translation>
+            <translation>Часы (наручные)</translation>
         </WordTask>
         <WordTask>
             <id>15</id>
             <word>Clock</word>
             <transcription>[klɒk]</transcription>
-            <translation>часы (настенные)</translation>
+            <translation>Часы (настенные)</translation>
         </WordTask>
     </Test>
 </WordTasks>
