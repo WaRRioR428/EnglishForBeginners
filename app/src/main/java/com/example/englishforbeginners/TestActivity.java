@@ -63,7 +63,7 @@ public class TestActivity extends AppCompatActivity {
     private List<Word> wrongWords;
 
     private TextToSpeech TTS;
-    private boolean ttsEnabled ;
+    private boolean ttsEnabled;
     private boolean ttsAvaliable;
     private String ttsText;
 
@@ -594,7 +594,7 @@ public class TestActivity extends AppCompatActivity {
 
         ttsText = word.word();
         ttsAvaliable = true;
-        infoAvaliable = isExam;
+        infoAvaliable = true;
         invalidateOptionsMenu();
 
         Random random = new Random();

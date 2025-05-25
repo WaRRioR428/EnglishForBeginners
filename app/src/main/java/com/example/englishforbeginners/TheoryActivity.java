@@ -32,7 +32,7 @@ public class TheoryActivity extends AppCompatActivity {
     private TheoryActivity context;
     private List<Object> randomTasks;
 
-    private boolean isWordTest;
+    private boolean hasWordTest;
     private int testID;
     private String testTheme;
 
@@ -69,17 +69,17 @@ public class TheoryActivity extends AppCompatActivity {
 
     private void checkIfWordExam(){
         if (testTheme.equals("Транскрипция")) {
-            isWordTest = false;
+            hasWordTest = false;
             return;
         }
 
         for (Object task: randomTasks) {
             if (task instanceof ConstructSentenceTask || task instanceof MissingWordSentenceTask) {
-                isWordTest = false;
+                hasWordTest = false;
                 return;
             }
         }
-        isWordTest = true;
+        hasWordTest = true;
     }
 
     private void loadActivity(String theme) {
@@ -172,7 +172,7 @@ public class TheoryActivity extends AppCompatActivity {
 
     private void finishActivity(){
         Intent intent = new Intent();
-        intent.putExtra("wordsFlag", isWordTest);
+        intent.putExtra("wordsFlag", hasWordTest);
         setResult(RESULT_OK, intent);
         finish();
     }

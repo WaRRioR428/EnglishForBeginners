@@ -126,10 +126,8 @@ public class MainActivity extends AppCompatActivity {
 
         Button transcriptionGame = findViewById(R.id.buttonGame);
         View.OnClickListener onClickGameStart = v -> {
-            databaseAccess.open();
             Intent intent = new Intent(mainContext, TheoryActivity.class);
             intent.putExtra("theme", "Транскрипция");
-            databaseAccess.close();
             mainActivityResult.launch(intent);
         };
         transcriptionGame.setOnClickListener(onClickGameStart);
@@ -142,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
 
         Collections.shuffle(allTasks);
         randomTasks = new ArrayList<>();
-        randomTasks.addAll(allTasks.subList(0, 26));
+        randomTasks.addAll(allTasks.subList(0, 25));
     }
 
     private void initLoadDialog(Context context) {

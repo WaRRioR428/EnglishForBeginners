@@ -3,7 +3,6 @@ package com.example.englishforbeginners;
 import androidx.activity.OnBackPressedCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
@@ -19,7 +18,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -288,7 +286,7 @@ public class TaskListActivity extends AppCompatActivity {
 
         Collections.shuffle(allTasks);
         randomTasks = new ArrayList<>();
-        randomTasks.addAll(allTasks.subList(0, 26));
+        randomTasks.addAll(allTasks.subList(0, 25));
     }
 
     private void convertGrammarTasksToObject(GrammarTest gt){
