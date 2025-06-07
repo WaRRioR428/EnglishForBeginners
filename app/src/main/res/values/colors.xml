@@ -2,6 +2,8 @@
 <resources>
     <color name="colorPrimary">#970035D4</color>
     <color name="colorPrimaryDark">#000000</color>
+    <color name="botMessage">#C5C7C9</color>
+    <color name="userMessage">#C1E8FF</color>
     <color name="colorAccent">#000000</color>
     <color name="colorButton">#7BEB3B</color>
     <color name="progressColor">#7BEB3B</color>

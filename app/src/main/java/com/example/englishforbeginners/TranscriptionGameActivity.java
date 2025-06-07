@@ -111,7 +111,7 @@ public class TranscriptionGameActivity extends AppCompatActivity {
         filter = (source, start, end, dEst, dStart, dEnd) -> {
             for (int i = start; i < end; i++) {
                 char ch = source.charAt(i);
-                if (!Character.isLetter(ch) || !Character.isLowerCase(ch)) {
+                if (!Character.isLetter(ch)) {
                     String newSource = source.toString();
                     newSource = newSource.substring(0, i) + newSource.substring(i + 1, end);
                     return newSource;
@@ -171,7 +171,7 @@ public class TranscriptionGameActivity extends AppCompatActivity {
 
         View.OnClickListener onClickButtonApply = v -> {
             hideKeyboard(context);
-            inputWord = input.getText().toString();
+            inputWord = input.getText().toString().toLowerCase();
             if (inputWord.equals(word.word().toLowerCase())) {
                 dlPath = "";
                 for (int i = 0; i < inputWord.length(); i++) {
